@@ -58,10 +58,10 @@ function pow(base, expo){
     if(isNaN(base) || isNaN(expo)){
         throw 'Um ou mais parâmetros são letras';
     }
-    if(num1 == 0){
+    if(base == 0){
         return 0;
     }
-    if(num2 == 0){
+    if(expo == 0){
         return 1;
     }
 
